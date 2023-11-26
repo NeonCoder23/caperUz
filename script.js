@@ -62,6 +62,10 @@ function addCells() {
 }
 addCells()
 
+alert("\"Bombani bosma\" o'yiniga xush kelibsiz! Bu o'yinda maxsus kataklar mavjud. Ularning ortida turli xil belgilar, sonlar\
+ va bombalar yashiringan. Katakni bosganingizda agar bomba bo'lsa, yutqazdingiz; ko'z belgisi bo'lsa, bu sizni omadingiz\
+  chunki bu belgi ko'pida bitta bombani zararsizlantiradi; agar lupa bo'lsa, u hohlangan bir katakni ko'rsatadi holos\
+  , bu katak bombali yoki bombasiz ekanligini bildirmaydi. Katakni ko'rsatmasligi ham mumkin.")
 
 let btns = document.querySelectorAll(".container button")
 let cells = document.querySelectorAll(".cell")
