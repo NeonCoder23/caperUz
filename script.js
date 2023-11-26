@@ -99,15 +99,16 @@ btns.forEach((e,i) => {
         bomba.push(cells[i]);
         bomba2.push(e);
     }
-    let advoNumber = Math.floor(Math.random() * buttons.length);
+    let q=0;
     e.onclick = () => {
+        q++;
         buttons.shift(e);
         if (e.innerHTML === "<i></i>") {
             bomba.forEach(element => {
                 element.classList.toggle("boom");
             })
             setTimeout(() => {
-                alert("Game over!")
+                alert(`Afsuski bomba portladi! Xayr!!!" Urinishlar soni ${q} ta`)
             }, 2000);
             btns.forEach(o => {
                 o.disabled = true
@@ -141,7 +142,7 @@ btns.forEach((e,i) => {
             d++;
             if (d == 27) {
                 setTimeout(() => {
-                    alert("You Win!")
+                    alert(`Siz yutdingiz! Tabriklaymiz! Urinishlar soni ${q} ta`)
                 }, 500);
                 btns.forEach(o => {
                     o.disabled = true
