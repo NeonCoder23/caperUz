@@ -112,7 +112,7 @@ btns.forEach((e,i) => {
                 element.classList.toggle("boom");
             })
             setTimeout(() => {
-                alert(`Afsuski bomba portladi! Xayr!!!" Urinishlar soni ${q} ta`)
+                alert(`Afsuski bomba portladi! Xayr!!!"`)
             }, 2000);
             btns.forEach(o => {
                 o.disabled = true
@@ -146,7 +146,7 @@ btns.forEach((e,i) => {
             d++;
             if (d == 27) {
                 setTimeout(() => {
-                    alert(`Siz yutdingiz! Tabriklaymiz! Urinishlar soni ${q} ta`)
+                    alert(`Siz yutdingiz! Tabriklaymiz!`)
                 }, 500);
                 btns.forEach(o => {
                     o.disabled = true
